@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/items/4
+    uri: http://localhost:3000/api/v1/items/4/merchant
     body:
       encoding: US-ASCII
       string: ''
@@ -21,19 +21,17 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Etag:
-      - W/"ea1d59bea0442421960da290dcded583"
+      - W/"bc1fd1230d92d0b6bb211d1985ff7fd3"
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - b19019df-3de6-4946-b1ad-a6ba3506fa3c
+      - 6c1d2631-3c88-425a-adaf-0573377c9f1f
       X-Runtime:
-      - '0.005152'
+      - '0.015842'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
-      string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
-        eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
-        ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Wed, 26 Oct 2022 23:01:15 GMT
+      string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
+  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
 recorded_with: VCR 6.1.0

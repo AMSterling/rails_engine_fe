@@ -10,4 +10,9 @@ class MerchantFacade
     data = MerchantService.one_merchant(id)
       Merchant.new(data)
   end
+
+  def self.item_merchant(item_id)
+    data = MerchantService.re_item_merchant(item_id)
+      Merchant.new(data)
+  end
 end

@@ -23,4 +23,14 @@ RSpec.describe 'Merchant Facade', :vcr do
     expect(merchant.name).to be_a String
     expect(merchant.name).to eq('Schroeder-Jerde')
   end
+
+  it 'is the items merchant' do
+    merchant = MerchantFacade.item_merchant(4)
+
+    expect(merchant).to be_a Merchant
+    expect(merchant.id).to be_a String
+    expect(merchant.id).to eq('1')
+    expect(merchant.name).to be_a String
+    expect(merchant.name).to eq('Schroeder-Jerde')
+  end
 end

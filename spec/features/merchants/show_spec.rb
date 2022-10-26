@@ -22,5 +22,9 @@ RSpec.describe 'The Merchant Show Page', :vcr do
       expect(page).to have_content('Numquam officiis reprehenderit eum ratione')
       expect(page).to have_content(159.25)
     end
+
+    click_link 'Item Nemo Facere'
+
+    expect(current_path).to eq(item_path(4))
   end
 end
