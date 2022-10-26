@@ -1,0 +1,39 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/items/4
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"ea1d59bea0442421960da290dcded583"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - da563537-c4b8-4676-8928-470b4462d3e4
+      X-Runtime:
+      - '0.006740'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
+        eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
+        ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
+  recorded_at: Wed, 26 Oct 2022 22:28:12 GMT
+recorded_with: VCR 6.1.0

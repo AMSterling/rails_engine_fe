@@ -1,0 +1,11 @@
+<h1><%= @merchant.name %></h1>
+
+<% @items.each_with_index do |item, index| %>
+  <div id='item-<%= index %>'>
+    <h3>Name: <%=  link_to "#{item.name}", item_path(item.id) %></h3>
+    <!-- <h3>Name: <%= item.name %></h3> -->
+    <p>Description: <%= item.description %></p>
+    <p>Unit Price: $<%= item.unit_price %></p>
+  </div>
+  <br>
+<% end %>
