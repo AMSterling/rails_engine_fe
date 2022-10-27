@@ -17,7 +17,7 @@ RSpec.describe 'The Welcome Page' do
     fill_in :name, with: 'iLl'
     click_button 'Search'
 
-    expect(current_path).to eq(merchants_path)
+    expect(current_path).to eq(root_path)
 
     within '#merchant-0' do
       expect(page).to have_link('Schiller, Barrows and Parker')
