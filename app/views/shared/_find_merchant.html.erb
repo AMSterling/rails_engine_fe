@@ -1,0 +1,4 @@
+<%= form_with url: '/', method: :get, local: true, skip_enforcing_utf8: true  do |f| %>
+  <%= f.text_field :name, placeholder: 'Merchant name' %>
+  <%= f.submit 'Search' %>
+<% end %>

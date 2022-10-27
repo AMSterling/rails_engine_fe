@@ -23,4 +23,28 @@ RSpec.describe 'Merchant Facade', :vcr do
     expect(merchant.name).to be_a String
     expect(merchant.name).to eq('Schroeder-Jerde')
   end
+
+  it 'is the items merchant' do
+    merchant = MerchantFacade.item_merchant(4)
+
+    expect(merchant).to be_a Merchant
+    expect(merchant.id).to be_a String
+    expect(merchant.id).to eq('1')
+    expect(merchant.name).to be_a String
+    expect(merchant.name).to eq('Schroeder-Jerde')
+  end
+
+  it 'is an array of Merchant objects matching searched name' do
+    search_name = 'iLl'
+    merchants = MerchantFacade.merchants_by_name(search_name)
+
+    expect(merchants).to be_an Array
+    expect(merchants).to be_all Merchant
+    expect(merchants.count).to eq 5
+
+    merchants.each do|merchant|
+      expect(merchant.id).to be_a String
+      expect(merchant.name).to be_a String
+    end
+  end
 end

@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/merchants/1
+    uri: http://localhost:3000/api/v1/items/4/merchant
     body:
       encoding: US-ASCII
       string: ''
@@ -25,13 +25,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 90b2c4e8-d272-48ba-8bb1-6fde431cd80f
+      - a1d4f615-5765-48d6-a947-6c8828e2c937
       X-Runtime:
-      - '0.004654'
+      - '0.003667'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
 recorded_with: VCR 6.1.0

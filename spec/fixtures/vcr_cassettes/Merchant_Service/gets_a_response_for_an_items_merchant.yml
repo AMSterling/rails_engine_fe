@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://localhost:3000/api/v1/merchants/1
+    uri: http://localhost:3000/api/v1/items/4/merchant
     body:
       encoding: US-ASCII
       string: ''
@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 90b2c4e8-d272-48ba-8bb1-6fde431cd80f
+      - 85bdc2e1-dbe4-4460-a1dd-df136ba3d677
       X-Runtime:
-      - '0.004654'
+      - '0.005163'
       Transfer-Encoding:
       - chunked
     body:
