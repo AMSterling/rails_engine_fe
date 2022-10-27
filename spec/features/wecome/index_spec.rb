@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-RSpec.describe 'The Welcome Page' do
+RSpec.describe 'The Welcome Page', :vcr do
   it 'is the root page' do
     visit root_path
 
