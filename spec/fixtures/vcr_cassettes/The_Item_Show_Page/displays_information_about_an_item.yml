@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 876c2601-e48c-4b73-89ee-38dea04fa933
+      - f73c6fd1-5c9c-4075-a7b3-66379a67c075
       X-Runtime:
-      - '0.003332'
+      - '0.002840'
       Transfer-Encoding:
       - chunked
     body:
@@ -35,7 +35,7 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4/merchant
@@ -61,15 +61,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 96223bb4-cae3-4c9c-8b85-a05dbae86359
+      - 89076970-655c-42ef-a8e1-8c457bb9b0a0
       X-Runtime:
-      - '0.002287'
+      - '0.003257'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1
@@ -95,15 +95,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 6de99706-ce9a-42e5-8bdc-6aaf89f2828c
+      - 5159ace3-a53f-418e-bcad-3ec215720c4f
       X-Runtime:
-      - '0.004941'
+      - '0.002274'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -129,9 +129,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 7a471ec1-1a9e-404d-ac4c-c140be97dc28
+      - 13a5adb1-5bd2-4842-9bd9-bbbd7d1fba22
       X-Runtime:
-      - '0.086259'
+      - '0.003738'
       Transfer-Encoding:
       - chunked
     body:
@@ -177,5 +177,5 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
 recorded_with: VCR 6.1.0

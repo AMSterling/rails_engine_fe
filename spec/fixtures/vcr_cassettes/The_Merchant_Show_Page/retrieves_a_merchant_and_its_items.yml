@@ -25,15 +25,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 31ab8ee9-42e1-4229-828c-323ba8b2964d
+      - c04033f3-bd74-4188-a4c6-a28b11cbc934
       X-Runtime:
-      - '0.003806'
+      - '0.003923'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -59,9 +59,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f594ab08-1bd7-446d-8d89-927ef4020e1b
+      - cc8e4dad-882b-4337-9c37-a0723d35aa6d
       X-Runtime:
-      - '0.002979'
+      - '0.003865'
       Transfer-Encoding:
       - chunked
     body:
@@ -107,7 +107,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -133,9 +133,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 0c69de45-c75d-4030-9501-7c6edb64a846
+      - 53bf8bb2-292b-476e-92f7-905ce42c7ee4
       X-Runtime:
-      - '0.002556'
+      - '0.003374'
       Transfer-Encoding:
       - chunked
     body:
@@ -143,7 +143,7 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4/merchant
@@ -169,13 +169,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 9ec488a4-b5a9-4f69-b1d5-20b6c14e7619
+      - e2ea1569-550e-4ff5-a364-22d90eb01a39
       X-Runtime:
-      - '0.006744'
+      - '0.003404'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Wed, 26 Oct 2022 23:01:16 GMT
+  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
 recorded_with: VCR 6.1.0

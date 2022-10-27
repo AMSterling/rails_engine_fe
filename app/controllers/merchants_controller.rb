@@ -1,6 +1,10 @@
 class MerchantsController < ApplicationController
   def index
-    @merchants = MerchantFacade.merchants
+    if params[:name]
+      @merchants = MerchantFacade.merchants_by_name(params[:name])
+    else
+      @merchants = MerchantFacade.merchants
+    end
   end
 
   def show

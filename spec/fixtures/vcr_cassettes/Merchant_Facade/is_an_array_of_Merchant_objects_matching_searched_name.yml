@@ -1,0 +1,40 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://localhost:3000/api/v1/merchants/find_all?name=iLl
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.5.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Content-Type:
+      - application/json; charset=utf-8
+      Etag:
+      - W/"8b6f2b12821ff28c4b3428cec72dd493"
+      Cache-Control:
+      - max-age=0, private, must-revalidate
+      X-Request-Id:
+      - f3f4108e-435d-4589-acbe-de85b1d93e9c
+      X-Runtime:
+      - '0.007485'
+      Transfer-Encoding:
+      - chunked
+    body:
+      encoding: UTF-8
+      string: '{"data":[{"id":"28","type":"merchant","attributes":{"name":"Schiller,
+        Barrows and Parker"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
+        Group"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson
+        Group"}},{"id":"3","type":"merchant","attributes":{"name":"Willms and Sons"}}]}'
+  recorded_at: Thu, 27 Oct 2022 00:50:06 GMT
+recorded_with: VCR 6.1.0

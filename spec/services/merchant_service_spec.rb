@@ -44,4 +44,21 @@ RSpec.describe 'Merchant Service', :vcr do
     expect(merchant[:attributes][:name]).to be_a String
     expect(merchant[:attributes][:name]).to eq('Schroeder-Jerde')
   end
+
+  it 'gets a response for all merchants matching name' do
+    search_name = 'iLl'
+    merchants = MerchantService.re_find_all_merchants(search_name)
+
+    expect(merchants).to be_an Array
+
+    merchants.each do|merchant|
+      expect(merchant).to have_key(:id)
+      expect(merchant[:id]).to be_a String
+      expect(merchant).to have_key(:type)
+      expect(merchant[:type]).to eq('merchant')
+      expect(merchant).to have_key(:attributes)
+      expect(merchant[:attributes]).to have_key(:name)
+      expect(merchant[:attributes][:name]).to be_a String
+    end
+  end
 end
