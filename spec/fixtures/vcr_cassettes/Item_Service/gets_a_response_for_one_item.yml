@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 1c87dd24-395c-4622-a073-578b6d510da1
+      - 419b7236-c897-441a-a9ff-8eb70a014bd0
       X-Runtime:
-      - '0.005862'
+      - '0.004093'
       Transfer-Encoding:
       - chunked
     body:
@@ -35,5 +35,5 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:10 GMT
 recorded_with: VCR 6.1.0

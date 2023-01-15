@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -23,15 +23,15 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 112cab5e-84a1-48a9-bf7f-a8ba02758805
+      - 2ec6d674-a06e-433a-ae7e-7d242faaa410
       X-Runtime:
-      - '0.001262'
+      - '0.001812'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{}}'
-  recorded_at: Thu, 27 Oct 2022 17:55:12 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/find_all?name=iLl
@@ -40,7 +40,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -57,9 +57,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5a52d886-3fb7-4d34-85c3-03effd56812b
+      - 78c8a623-b71d-4a6c-8f73-448ef7b265de
       X-Runtime:
-      - '0.072939'
+      - '0.002933'
       Transfer-Encoding:
       - chunked
     body:
@@ -68,5 +68,5 @@ http_interactions:
         Barrows and Parker"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
         Group"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson
         Group"}},{"id":"3","type":"merchant","attributes":{"name":"Willms and Sons"}}]}'
-  recorded_at: Thu, 27 Oct 2022 17:55:12 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 recorded_with: VCR 6.1.0

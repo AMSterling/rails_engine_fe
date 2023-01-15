@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - f3f4108e-435d-4589-acbe-de85b1d93e9c
+      - 39d07aea-2a8f-4b58-af61-e651cb79faf4
       X-Runtime:
-      - '0.007485'
+      - '0.007477'
       Transfer-Encoding:
       - chunked
     body:
@@ -36,5 +36,5 @@ http_interactions:
         Barrows and Parker"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
         Group"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson
         Group"}},{"id":"3","type":"merchant","attributes":{"name":"Willms and Sons"}}]}'
-  recorded_at: Thu, 27 Oct 2022 00:50:06 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:08 GMT
 recorded_with: VCR 6.1.0

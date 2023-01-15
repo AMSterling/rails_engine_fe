@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -23,13 +23,13 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 4d5be707-ff56-4b04-9e97-b8a593d6ebc0
+      - 8ee95ae7-1e1d-407d-897f-404aa7fc0a48
       X-Runtime:
-      - '0.018264'
+      - '0.001179'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{}}'
-  recorded_at: Thu, 27 Oct 2022 17:55:12 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 recorded_with: VCR 6.1.0

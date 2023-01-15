@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - fe71341b-b058-4f12-a78d-0b5db0827662
+      - b9694577-710f-492e-b0aa-44dcb775d95a
       X-Runtime:
-      - '0.004437'
+      - '0.011154'
       Transfer-Encoding:
       - chunked
     body:
@@ -96,5 +96,5 @@ http_interactions:
         Prohaska and Rolfson"}},{"id":"100","type":"merchant","attributes":{"name":"Wisozk,
         Hoeger and Bosco"}},{"id":"99","type":"merchant","attributes":{"name":"Fahey-Stiedemann"}},{"id":"42","type":"merchant","attributes":{"name":"Glover
         Inc"}}]}'
-  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:08 GMT
 recorded_with: VCR 6.1.0

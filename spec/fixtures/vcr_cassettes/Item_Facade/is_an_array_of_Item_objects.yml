@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 88469b39-ba87-488b-aefa-f1b6ac76b331
+      - 9b4a95f2-25f6-4f8c-be8e-b359cb24e0fd
       X-Runtime:
-      - '0.130787'
+      - '0.136590'
       Transfer-Encoding:
       - chunked
     body:
@@ -6992,5 +6992,5 @@ http_interactions:
         Qui Veritatis","description":"Totam labore quia harum dicta eum consequatur
         qui. Corporis inventore consequatur. Illum facilis tempora nihil placeat rerum
         sint est. Placeat ut aut. Eligendi perspiciatis unde eum sapiente velit.","unit_price":906.17,"merchant_id":9}}]}'
-  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:08 GMT
 recorded_with: VCR 6.1.0

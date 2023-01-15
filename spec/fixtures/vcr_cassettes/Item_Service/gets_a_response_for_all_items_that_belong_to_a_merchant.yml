@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,9 +25,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 5d751884-23a7-4c53-82ae-5a6a3cf6064d
+      - 001b4798-cadf-48e6-af81-f60205a07bfa
       X-Runtime:
-      - '0.003755'
+      - '0.003525'
       Transfer-Encoding:
       - chunked
     body:
@@ -73,5 +73,5 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 recorded_with: VCR 6.1.0

@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,15 +25,15 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - c04033f3-bd74-4188-a4c6-a28b11cbc934
+      - 44352140-4a7b-47f0-b701-b767352fc49a
       X-Runtime:
-      - '0.003923'
+      - '0.002514'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 27 Oct 2022 00:32:07 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/1/items
@@ -42,7 +42,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -59,9 +59,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - cc8e4dad-882b-4337-9c37-a0723d35aa6d
+      - fd3725bd-07dd-4196-a8a6-32d98cde603f
       X-Runtime:
-      - '0.003865'
+      - '0.003271'
       Transfer-Encoding:
       - chunked
     body:
@@ -107,7 +107,7 @@ http_interactions:
         cupiditate reiciendis est commodi non. Atque eveniet sed. Illum excepturi
         praesentium reiciendis voluptatibus eveniet odit perspiciatis. Odio optio
         nisi rerum nihil ut.","unit_price":323.01,"merchant_id":1}}]}'
-  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4
@@ -116,7 +116,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -133,9 +133,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 53bf8bb2-292b-476e-92f7-905ce42c7ee4
+      - 4b0d7cdf-6a7b-420a-aa41-7dadce3d7782
       X-Runtime:
-      - '0.003374'
+      - '0.002418'
       Transfer-Encoding:
       - chunked
     body:
@@ -143,7 +143,7 @@ http_interactions:
       string: '{"data":{"id":"4","type":"item","attributes":{"name":"Item Nemo Facere","description":"Sunt
         eum id eius magni consequuntur delectus veritatis. Quisquam laborum illo ut
         ab. Ducimus in est id voluptas autem.","unit_price":42.91,"merchant_id":1}}}'
-  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/items/4/merchant
@@ -152,7 +152,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -169,13 +169,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - e2ea1569-550e-4ff5-a364-22d90eb01a39
+      - 4ecf31c1-9bec-4c72-9c4c-ca7b925340c2
       X-Runtime:
-      - '0.003404'
+      - '0.002966'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
 recorded_with: VCR 6.1.0

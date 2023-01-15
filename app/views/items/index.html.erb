@@ -1,0 +1,7 @@
+<h1>Items</h1>
+
+<% @items.each_with_index do |item, index| %>
+  <div id='item-<%= index %>'>
+    <p><%=  link_to "#{item.name}", item_path(item.id) %></p>
+  </div>
+<% end %>

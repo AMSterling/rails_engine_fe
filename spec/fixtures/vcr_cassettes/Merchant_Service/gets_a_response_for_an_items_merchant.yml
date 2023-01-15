@@ -8,7 +8,7 @@ http_interactions:
       string: ''
     headers:
       User-Agent:
-      - Faraday v2.5.2
+      - Faraday v2.7.2
       Accept-Encoding:
       - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
       Accept:
@@ -25,13 +25,13 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 85bdc2e1-dbe4-4460-a1dd-df136ba3d677
+      - 9fc06525-700e-4d47-85ca-2b90380a636c
       X-Runtime:
-      - '0.005163'
+      - '0.002311'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{"id":"1","type":"merchant","attributes":{"name":"Schroeder-Jerde"}}}'
-  recorded_at: Thu, 27 Oct 2022 00:32:08 GMT
+  recorded_at: Sun, 15 Jan 2023 07:27:10 GMT
 recorded_with: VCR 6.1.0
