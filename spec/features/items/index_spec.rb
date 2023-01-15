@@ -5,6 +5,7 @@ RSpec.describe 'The Item Index', :vcr do
     visit items_path
 
     expect(current_path).to eq(items_path)
+    expect(page).to have_link('Home')
     expect(page).to have_content('Items')
 
     within '#item-0' do

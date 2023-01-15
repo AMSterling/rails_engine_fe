@@ -7,6 +7,19 @@ RSpec.describe 'The Welcome Page', :vcr do
     expect(current_path).to eq(root_path)
     expect(page).to have_link('Merchants')
     expect(page).to have_link('Items')
+
+    click_link 'Merchants'
+
+    expect(current_path).to eq(merchants_path)
+    expect(page).to have_link('Home')
+
+    click_link 'Home'
+
+    expect(current_path).to eq(root_path)
+
+    click_link 'Items'
+
+    expect(current_path).to eq(items_path)
   end
 
   it 'has a search field to find all merchants by name' do

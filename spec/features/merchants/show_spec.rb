@@ -5,6 +5,7 @@ RSpec.describe 'The Merchant Show Page', :vcr do
     visit merchant_path(1)
 
     expect(current_path).to eq(merchant_path(1))
+    expect(page).to have_link('Home')
     expect(page).to have_content('Schroeder-Jerde')
 
     within '#item-0' do
@@ -26,5 +27,6 @@ RSpec.describe 'The Merchant Show Page', :vcr do
     click_link 'Item Nemo Facere'
 
     expect(current_path).to eq(item_path(4))
+    expect(page).to have_link('Home')
   end
 end

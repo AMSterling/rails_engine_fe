@@ -23,15 +23,15 @@ http_interactions:
       Cache-Control:
       - no-cache
       X-Request-Id:
-      - 2ec6d674-a06e-433a-ae7e-7d242faaa410
+      - 047c69be-3c70-402f-b6a8-1cd6c5d6fab8
       X-Runtime:
-      - '0.001812'
+      - '0.001844'
       Transfer-Encoding:
       - chunked
     body:
       encoding: UTF-8
       string: '{"data":{}}'
-  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
+  recorded_at: Sun, 15 Jan 2023 07:59:57 GMT
 - request:
     method: get
     uri: http://localhost:3000/api/v1/merchants/find_all?name=iLl
@@ -57,9 +57,9 @@ http_interactions:
       Cache-Control:
       - max-age=0, private, must-revalidate
       X-Request-Id:
-      - 78c8a623-b71d-4a6c-8f73-448ef7b265de
+      - c35abb61-fb40-4f13-92c5-9b1b3065ddfa
       X-Runtime:
-      - '0.002933'
+      - '0.007256'
       Transfer-Encoding:
       - chunked
     body:
@@ -68,5 +68,5 @@ http_interactions:
         Barrows and Parker"}},{"id":"13","type":"merchant","attributes":{"name":"Tillman
         Group"}},{"id":"5","type":"merchant","attributes":{"name":"Williamson Group"}},{"id":"6","type":"merchant","attributes":{"name":"Williamson
         Group"}},{"id":"3","type":"merchant","attributes":{"name":"Willms and Sons"}}]}'
-  recorded_at: Sun, 15 Jan 2023 07:27:09 GMT
+  recorded_at: Sun, 15 Jan 2023 07:59:57 GMT
 recorded_with: VCR 6.1.0
