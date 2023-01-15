@@ -1,14 +1,9 @@
 <h2>Welcome to Rails Engine</h2>
 
 <h3><%= link_to "Merchants", :merchants, method: :get %></h3>
+<h3><%= link_to "Items", :items, method: :get %></h3>
 
 <br>
 
 <%= render partial: 'shared/find_merchant' %>
 <%= render partial: 'shared/merchant_results' %>
-
-<!-- <% @searched_merchants.each_with_index do |merchant, index| %>
-  <div id='merchant-<%= index %>'>
-    <p><%=  link_to "#{merchant.name}", merchant_path(merchant.id) %></p>
-  </div>
-<% end %> -->
