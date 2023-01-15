@@ -2,6 +2,10 @@
 
 Congratulations! You've written your first API. Just like the API you consumed for your week 1 project, your Rails Engine API can be used by other projects now, too. For this challenge, you will create a front end application that will make calls to your backend application, the Rails Engine API you have just created.
 
+## Description
+
+Rails Engine FE is the Front End Service Oriented Architecture application. <a href="https://github.com/AMSterling/rails-engine">Rails Engine Back End Repo</a>.
+
 ## Setup
 
 Just like your week 1 project, this will be a new Rails app. You should fork this repository. 
